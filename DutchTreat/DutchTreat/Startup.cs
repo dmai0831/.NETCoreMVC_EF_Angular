@@ -18,17 +18,27 @@ namespace DutchTreat
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // Configure tells how to listen the web request
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            //Any time a request come in, write a Hello World!
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("<html><body><h1>Hello World</h1></body></html>");
+            //});
+
+
+            //the order is matter
+            app.UseDefaultFiles();
+            //UseStaticFiles only deliver file in wwwRoot directory.
+            app.UseStaticFiles();
+            app.UseNodeModules(env);
+
         }
     }
 }
