@@ -24,12 +24,17 @@ namespace DutchTreat
         // Configure tells how to listen the web request
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            //#if DEBUG
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-            //#endif
+            else
+            {
+                app.UseExceptionHandler("/error");
+            }
+            
+
+
 
             //the order is matter
             //no longer serving html file
