@@ -15,29 +15,28 @@ namespace DutchTreat
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //Asp.net Core required to have dependency injection
+            services.AddMvc();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         // Configure tells how to listen the web request
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {
-            //if (env.IsDevelopment())
-            //{
-            //    app.UseDeveloperExceptionPage();
-            //}
-
-            //Any time a request come in, write a Hello World!
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("<html><body><h1>Hello World</h1></body></html>");
-            //});
-
-
+        {          
             //the order is matter
-            app.UseDefaultFiles();
+  //no longer serving html file
+ //           app.UseDefaultFiles();
             //UseStaticFiles only deliver file in wwwRoot directory.
             app.UseStaticFiles();
             app.UseNodeModules(env);
+            app.UseMvc(cfg =>
+            {
+                cfg.MapRoute("Default", 
+                    "/{controller}/{action}/{id?}", 
+                    //if there is no matching controller, then default to AppController action index
+                    new { controller = "App", Action = "Index" });
+            });
 
         }
     }

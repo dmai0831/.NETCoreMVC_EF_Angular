@@ -12,3 +12,12 @@ C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Dut
 C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorTargetAssemblyInfo.cache
 C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.dll
 C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.pdb
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.Views.dll
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.Views.pdb
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.TagHelpers.input.cache
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.TagHelpers.output.cache
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorCoreGenerate.cache
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\App\Index.g.cshtml.cs
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorTargetAssemblyInfo.cs
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.Views.pdb
+C:\Devo\Asp.NetCore\DutchTreat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.csproj.CopyComplete
